@@ -1,8 +1,31 @@
-<h1> New
+<h1> New item
 </h1>
 
-<div>
-  <span>
-    teste
-  </span>
-</div>
+<body>
+  <div>
+    <span>
+      prod added
+    </span>
+  </div>
+
+  <div class="show_product">
+    <table class="product_table">
+      <tr>
+        <th>Produto</th>
+        <td><%= @description %></td>
+      </tr>
+      <tr>
+        <th>Preço</th>
+        <td><%= @color %></td>
+      </tr>
+      <tr>
+        <th>Quantidade</th>
+        <td><%= @brand %></td>
+      </tr>
+      <tr>
+        <th>Número de pessoas</th>
+        <td><%= @model %></td>
+      </tr>
+    </table>
+  </div>
+</body>

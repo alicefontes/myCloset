@@ -1,0 +1,28 @@
+<h1> Novo Item
+</h1>
+
+<div>
+  <span>
+    teste
+  </span>
+</div>
+
+<div class="new_item">
+  <form action=<%= new_path %> method="POST">
+    <div class="form_field">
+      <input class="input" type="text" placeholder="Descrição" id="description_id" name="description" value="<%= @description %>" />
+    </div>
+    <div class="form_field">
+      <input class="input" type="text" placeholder="Cor" id="color_id" name="color" value="<%= @color %>" />
+    </div>
+    <div class="form_field">
+      <input class="input" type="text" placeholder="Marca" id="brand_id" name="brand" value="<%= @brand%>" />
+    </div>
+    <div class="form_field">
+      <input class="input" type="text" placeholder="Modelo" id="model_id" name="model" value="<%= @model%>" />
+    </div>
+    <div class="form_field">
+      <input type="submit" class="btn" value="Resgistrar"/>
+    </div>
+  </form>
+</div>

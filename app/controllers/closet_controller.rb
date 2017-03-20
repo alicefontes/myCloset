@@ -8,4 +8,8 @@ class ClosetController < ApplicationController
     render 'new'
   end
 
+  def newshirt
+    render 'newshirt'
+  end
+
 end
